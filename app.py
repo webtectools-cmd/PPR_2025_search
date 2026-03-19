@@ -3,7 +3,8 @@ import google.generativeai as genai
 import time
 
 # Get API Key from Streamlit Secrets
-api_key = st.secrets["GEMINI_API_KEY"]
+api_key = st.secrets["AIzaSyBPb6LEg7VauWvvzTs52so9eBG24-HCl98
+"]
 genai.configure(api_key=api_key)
 
 st.set_page_config(page_title="PPR 2025 Online Search", page_icon="📑")
